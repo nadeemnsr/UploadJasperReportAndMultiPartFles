@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<Meta charSet="UTF-8"></meta>
+<title>My First File Uploaded</title>
+
+</head>
+
+<body>
+	<div th:if="${msg}">
+		<span th:text="${msg}"></span>
+	</div>
+	<div>
+		<span> <a href="/">upload more files</a></span>
+	</div>
+</body>
+</html>
